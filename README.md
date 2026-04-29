@@ -67,7 +67,7 @@ synthetic-identity-fraud-detection/
 ├── tests/            # API tests
 ├── reports/
 │   └── figures/      # Charts / SHAP plots
-├─requirements.txt
+├──requirements.txt
 └── README.md
 ```
 
@@ -77,14 +77,14 @@ synthetic-identity-fraud-detection/
 
 Requires Python 3.11.
 
-bash
+```bash
 git clone https://github.com/chibuzorwilliams/synthetic-identity-fraud-detection.git
 cd synthetic-identity-fraud-detection
 
 python3.11 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-
+```
 
 Download the IEEE-CIS dataset from [Kaggle](https://www.kaggle.com/competitions/ieee-fraud-detection/data) and place the CSVs in data/raw/.
 
