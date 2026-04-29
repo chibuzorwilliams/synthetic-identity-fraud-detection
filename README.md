@@ -61,7 +61,7 @@ synthetic-identity-fraud-detection/
 ├── src/
 │   ├── features.py   # Feature engineering
 │   ├── train.py      # Model training
-│   ├── evaluate.py   # Metrics / threshold tuning
+│   ├── evaluate.py   # Metrics/threshold tuning
 │   └── api.py        # FastAPI scoring service
 ├── models/           # Saved models (gitignored)
 ├── tests/            # API tests
@@ -69,6 +69,9 @@ synthetic-identity-fraud-detection/
 │   └── figures/      # Charts / SHAP plots
 ├─requirements.txt
 └── README.md
+```
+
+---
 
 ## Setup
 
@@ -87,7 +90,7 @@ Download the IEEE-CIS dataset from [Kaggle](https://www.kaggle.com/competitions/
 
 ## Deployment
 
-To be added in deployment phase.
+To be added in the deployment phase.
 
 ## Limitations & next steps
 
